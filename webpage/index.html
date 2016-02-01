@@ -1,0 +1,134 @@
+<!doctype html>
+<script language="javascript" type="text/javascript" src="p5.js"></script>
+<script language="javascript" type="text/javascript" src="p5.sound.js"></script>
+<script language="javascript" type="text/javascript" src="sound_demo.js"></script>
+<html>
+	<head>
+		<title>Lyrical Zeitgeist</title>
+		<link type='text/css' rel='stylesheet' href='css/main.css' />
+		<link href='https://fonts.googleapis.com/css?family=Passion+One:700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div id='container'>
+			<div id='bg'></div>
+			<!-- TOP -->
+			<div id='t1'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/e6a86a8eda0f4e8580416428e3f8f44b.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/5b6694a1c6e9408f9211c751b1e1012f.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/0d56b169da154d95cdd4a8426adab528.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/f9f0a157712c4a6ecac5f6606ae0b5a6.png' />
+			</div>
+			<div id='t2'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/91a46a6b07234ca9ccad9cc4ef11978d.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/2121c42e41d84bd31f6ae21c93c09701.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/d66b074b734d49029dd1df0c698d3534.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/504f73cb305a4271c27f717fa51b77a2.png' />
+			</div>
+			<div id='t3'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/d03de584e5c143e688188f1fb9a6937b.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/fddbfa41ba094665add57e85afb6e4a7.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/43e6567139cd6c8a415ec023deeeeb05.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/849c4284cb19c6a2600f74f8c893346b.png' />
+			</div>
+			<div id='t4'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/ca27bf3da75f07b9ee06b6acd1ce23a6.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/5b6694a1c6e9408f9211c751b1e1012f.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/0bb78cedae9b371c415dc3c0726a8267.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/f9f0a157712c4a6ecac5f6606ae0b5a6.png' />
+			</div>
+			<div id='t5'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/67d59ed4e44b4098b2c1a73a5e4b9c04.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/37e94d9ecb0a4594a36be40c9ffcff75.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/40eb2347b4c9149f38ebbcff70c648bb.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/91a46a6b07234ca9ccad9cc4ef11978d.png' />
+			</div>
+			<div id='b1'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/64de82bbef514221b777cfb6e152b148.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/0aa9b77c553255a73e66be1757e8d6c5.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/f9b589f5c2d34912c97d954e61019ac1.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/28f82e350cc1a70a2e246472b2b6e55e.png' />
+			</div>
+			<div id='b2'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/fe00a16eb0a04a2fcad105d5d2997076.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/44bf687599c64e2cce54c1b873a153e4.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/6c5e4b64d5ef4832c8a395847309efe2.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/f9f0a157712c4a6ecac5f6606ae0b5a6.png' />
+			</div>
+			<div id='b3'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/1caf33c3ad894134bb68f4067882eee4.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/9df8cf2501044b2ecbf29d376189e2b7.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/18bbd279dc064c7f9ec2d0e54abeb21c.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/1a08595ffd1f4fc9cfbc047067de0349.png' />
+			</div>
+			<div id='b4'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/0e1feadd185cb56100202b98e47f5b63.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/e1d93f511fa7a1571a8835cea5ec94ac.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/985e7d024f574168a90f20e766cec88d.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/677b6e7cb2bc44895e177f28b2ec6ba7.png' />
+			</div>
+			<div id='b5'>
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/ad427a3a46d64b36d768eff16219ddaf.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/b94b1af001c34cf495a20d638a6e89bc.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/0bb78cedae9b371c415dc3c0726a8267.png' />
+				<img class='top' src='http://img2-ak.lst.fm/i/u/300x300/8a5f7f7b3e382c6d0a43edbd4ac54baa.png' />
+			</div>
+		</div>
+		<div class='clear'></div>
+		<div id='lyrics'>
+			<h1> Fuse Pop </h1>
+			<p>
+				
+		
+
+<br>Jordan bring special hellish had miles</br>
+<br>Thats chick party explosion time every</br>
+<br>Nobody motivation chill lights money whip</br>
+<br>Its threat clubs gon forth blow</br>
+<br>Pair excuse far kryptonite much cheerleader</br>
+<br>Everybody flexing word inch reaching info</br>
+<br>Sympathy comfortable seen around find seen</br>
+<br>Dope could introduced minutes friday drunk</br>
+<br>Head fucked cool hunt only taking</br>
+<br>New fight dear lovin model wand</br>
+<br>Outta youll treble haunting river tryna</br>
+<br>Nothin meant til places bright yeah</br>
+<br>Animals sing later years ocean hoping</br>
+<br>Dean mysterious whatever offering konjo skinny</br>
+<br>Bottom sweep baking destiny over pretend</br>
+<br>Cant designer hanging kick let rehab</br>
+<br>Film hollering cherry hair left someone</br>
+<br>Body nervous sing also memory talk<br>
+<br>Pain believes around victims chemical blossom</br>
+<br>Speed wants stop thought checking realize</br>
+<br>Mention cook without confess faith heaven</br>
+<br>Doors overdue changes fucked gossiping ask</br>
+<br>Hold bitch thighs counting hope tongue</br>
+<br>Imma clean skin every falling side</br>
+<br>Played nae clear stand attenti finna</br>
+<br>Floor denyny sleep lingo hellish fight</br>
+<br>Screen loosen take broke walked knees</br>
+<br>Making weapon day sent slick hotel</br>
+<br>Sing reload youve attentican wesley animalsmals</br>
+<br>Sadly all from pounding boys magazines</br>
+<br>Place master mysterious shots wild ive</br>
+<br>Sunset thighs cities business then lasts</br>
+<br>Sinner congregating tec sleeping married cheating</br>
+<br>Games sympathy whole anti walks check</br>
+<br>Jordan earned things sleep days sit</br>
+<br>Doll prove pounding well somewhere special</br>
+<br>Listen heard lot daydream the couple</br>
+<br>Queen step venom clear sack whip</br>
+<br>Dahey top facetime pray blow shows</br>
+<br>Lies leave disappeared peace hurts will</br>
+<br>Nobody thought bet world overwhelming shows</br>
+<br>Loosen shes then mysterious rather tall</br>
+<br>Velvet nobody mention nah ooh beanie</br>
+<br>Dancing yeahh rock hates renegades reverie</br>
+
+
+			</p>
+	</div>
+	</body>
+
+</html>
